@@ -6,7 +6,7 @@
             "version": "latest"
         }
     },
-    "postStartCommand": "tanu2=$(basename $(git rev-parse --show-toplevel)); python3 /workspaces/$tanu2/f.py",
+    "postStartCommand": "tanu2=$(basename $(git rev-parse --show-toplevel)); python3 /workspaces/$tanu2/soul1.py",
     "customizations": {
         "vscode": {
             "settings": {
